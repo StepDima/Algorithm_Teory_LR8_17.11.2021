@@ -121,7 +121,7 @@ class App(tk.Tk):
             self.canvas.itemconfig(self.vertex[min_edge.start], fill ='#00DD00')
             self.canvas.itemconfig(self.vertex[min_edge.end], fill='#00DD00')
             time.sleep(0.8)
-            
+
 
 
     def kruskal(self):
